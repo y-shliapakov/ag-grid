@@ -1,0 +1,18 @@
+@import "src/app/theme/css/mixins";
+@import "src/app/theme/css/variables";
+
+.header{
+  padding: 20px 0 0 6%;
+  @include second-gradient(bottom);
+  @include flex(row, flex-start, center);
+
+  &__title{
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: $title-color;
+    
+    & span {
+      color: $secondary-color;
+    }
+  }
+}

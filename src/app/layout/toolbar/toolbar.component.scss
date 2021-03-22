@@ -1,0 +1,12 @@
+@import "src/app/theme/css/variables";
+@import "src/app/theme/css/mixins";
+
+.ag-header-component{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: $scrollbar-thumb;
+  @include flex(row, flex-start, stretch );
+}

@@ -1,0 +1,13 @@
+@import "src/app/theme/css/mixins";
+@import "src/app/theme/css/variables";
+
+.footer {
+  @include flex(row, center, stretch);
+  @include second-gradient(top);
+  & p{
+    width: 40%;
+    padding: 16px;
+    text-align: center;
+    color: $title-color;
+  }
+}

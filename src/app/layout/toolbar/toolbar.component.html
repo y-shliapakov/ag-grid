@@ -1,0 +1,17 @@
+<div class="ag-header-component">
+
+  <div class="ag-header-group-cell-label">
+    <mat-slide-toggle color="warn"
+      (toggleChange)="toggleSelectionMode()">
+      Selection mode
+    </mat-slide-toggle>
+  </div>
+
+  <div class="ag-header-group-cell-label">
+    Total records: {{totalRecords}}
+  </div>
+  
+  <div class="ag-header-group-cell-label">
+    Selected records: {{totalSelectedRecords}}
+  </div>
+</div>

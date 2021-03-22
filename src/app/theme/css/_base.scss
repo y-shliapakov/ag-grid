@@ -1,0 +1,28 @@
+@import "variables";
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+*::-webkit-scrollbar{
+  width: 10px;
+  height: 8px;
+  background: $base-gradient;
+}
+*::-webkit-scrollbar-thumb {
+  background: $scrollbar-thumb;
+}
+
+html, body { 
+  height: 100%;
+}
+
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: $base-gradient;
+}
+
+
+

@@ -1,0 +1,16 @@
+.ag-theme-material .ag-cell{
+  padding-right: 0;
+}
+.mat-slide-toggle{
+  padding: 0 0 0 13px;
+}
+
+.ag-theme-material .ag-row img{
+  transition: .6s;
+}
+
+.ag-theme-material .ag-row:hover{
+  & img {
+    transform: scale(1.1);
+  }
+}
